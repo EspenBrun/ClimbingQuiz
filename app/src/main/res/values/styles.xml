@@ -23,10 +23,7 @@
         <item name="android:layout_marginLeft">@dimen/cardview_horizontal_margin</item>
         <item name="android:layout_marginRight">@dimen/cardview_horizontal_margin</item>
         <item name="android:layout_marginBottom">@dimen/cardview_vertical_margin</item>
-        <!--TODO: what corner radius? -->
-        <!--<item name="cardCornerRadius">2dp</item> from mrpeny-->
         <item name="cardCornerRadius">5dp</item>
-        <!-- TODO: Is this the color i want??-->
         <item name="cardBackgroundColor">@android:color/background_light</item>
     </style>
 
@@ -51,7 +48,7 @@
     <style name="CardViewTextViewStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <!--<item name="android:textColor">@color/colorPrimaryDark</item>-->
+        <item name="android:textColor">@color/colorPrimaryDark</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">14sp</item>
         <item name="android:padding">@dimen/activity_horizontal_margin</item>
@@ -74,6 +71,13 @@
         <item name="android:paddingTop">@dimen/radio_button_vertical_margin</item>
         <item name="android:paddingBottom">@dimen/radio_button_horizontal_margin</item>
         <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- Button Style-->
+    <style name="ButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
     </style>
 
 </resources>

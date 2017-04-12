@@ -41,7 +41,6 @@
             android:id="@+id/climb1_card"
             style="@style/CardViewStyle"
             android:focusable="true">
-            <!-- TODO: do I need focusable? -->
 
             <LinearLayout style="@style/CardViewLinearLayoutStyle">
 
@@ -80,7 +79,6 @@
             android:id="@+id/climb2_card"
             style="@style/CardViewStyle"
             android:focusable="true">
-            <!-- TODO: do I need focusable? -->
 
             <LinearLayout style="@style/CardViewLinearLayoutStyle">
 
@@ -120,7 +118,6 @@
             android:id="@+id/climb3_card"
             style="@style/CardViewStyle"
             android:focusable="true">
-            <!-- TODO: do I need focusable? -->
 
             <LinearLayout style="@style/CardViewLinearLayoutStyle">
 
@@ -164,7 +161,6 @@
             android:id="@+id/climb4_card"
             style="@style/CardViewStyle"
             android:focusable="true">
-            <!-- TODO: do I need focusable? -->
 
             <LinearLayout style="@style/CardViewLinearLayoutStyle">
 
@@ -208,7 +204,6 @@
             android:id="@+id/climb5_card"
             style="@style/CardViewStyle"
             android:focusable="true">
-            <!-- TODO: do I need focusable? -->
 
             <LinearLayout style="@style/CardViewLinearLayoutStyle">
 
@@ -234,11 +229,7 @@
         </android.support.v7.widget.CardView>
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingRight="@dimen/activity_horizontal_margin"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:layout_gravity="center"
+                style="@style/ButtonStyle"
                 android:onClick="submit"
                 android:text="@string/submit" />
 
