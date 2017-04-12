@@ -5,7 +5,7 @@
 
     <!-- CardView dimensions -->
     <dimen name="cardview_horizontal_margin">16dp</dimen>
-    <dimen name="cardview_vertical_margin">16dp</dimen>
+    <dimen name="cardview_vertical_margin">32dp</dimen>
     <dimen name="cardview_title_text_margin_bottom">16dp</dimen>
 
     <!-- RadioButton paddings -->

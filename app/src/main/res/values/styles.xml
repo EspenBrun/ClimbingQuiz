@@ -21,7 +21,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">@dimen/cardview_horizontal_margin</item>
         <item name="android:layout_marginRight">@dimen/cardview_horizontal_margin</item>
-        <item name="android:layout_marginTop">@dimen/cardview_vertical_margin</item>
+        <item name="android:layout_marginBottom">@dimen/cardview_vertical_margin</item>
         <!--TODO: what corner radius? -->
         <!--<item name="cardCornerRadius">2dp</item> from mrpeny-->
         <item name="cardCornerRadius">5dp</item>
