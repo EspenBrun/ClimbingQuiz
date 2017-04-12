@@ -20,48 +20,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingBottom="16dp"
-            android:text="@string/each_question_is_worth_1_point" />
-
-        <EditText
-            android:id="@+id/name_field"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:hint="@string/name_field"
-            android:inputType="textCapWords" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingBottom="@dimen/activity_vertical_margin"
-            android:text="Some text" />
-
-        <CheckBox
-            android:id="@+id/whipped_cream_checkbox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:onClick="checkBoxClick"
-            android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:text="Whipped cream $1"
-            android:textSize="16sp" />
-
-        <CheckBox
-            android:id="@+id/chocolate_checkbox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:onClick="checkBoxClick"
-            android:paddingLeft="16dp"
-            android:text="Chocolate $2"
-            android:textSize="16sp" />
+            android:text="@string/info"
+            android:textAllCaps="true" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingBottom="16dp"
-            android:text="Quantity"
+            android:text="@string/each_question_is_worth_1_point" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="@string/the_quiz"
             android:textAllCaps="true" />
 
 
@@ -79,27 +51,26 @@
 
                 <TextView
                     style="@style/CardViewTextViewStyle"
-                    android:text="Heyeyeyeye what is up dog about the gate" />
+                    android:text="@string/on_sight_question" />
 
                 <RadioGroup
                     android:id="@+id/climb1radio"
                     style="@style/CardViewRadioGroupStyle">
+
                     <RadioButton
                         android:id="@+id/climb1a"
                         style="@style/CardViewRadioButtonStyle"
-                        android:text="Heeey" />
+                        android:text="To be the first to climb a route" />
+
                     <RadioButton
                         android:id="@+id/climb1b"
                         style="@style/CardViewRadioButtonStyle"
-                        android:text="colors of the gate" />
+                        android:text="To climb a route in first try with no prior beta" />
+
                     <RadioButton
                         android:id="@+id/climb1c"
                         style="@style/CardViewRadioButtonStyle"
-                        android:text="hoe mant partsssss skjaejf sskks dfs" />
-                    <RadioButton
-                        android:id="@+id/climb1d"
-                        style="@style/CardViewRadioButtonStyle"
-                        android:text="wht is the devaor sfjsm skfmsmfm" />
+                        android:text="To climb without gear" />
                 </RadioGroup>
 
             </LinearLayout>
@@ -115,32 +86,32 @@
 
                 <ImageView
                     style="@style/CardViewImageViewStyle"
-                    android:src="@drawable/climb1" />
+                    android:src="@drawable/climb2" />
 
                 <TextView
                     style="@style/CardViewTextViewStyle"
-                    android:text="Heyeyeyeye what is up dog about the gate" />
+                    android:text="If you visit Yosemite National Park you can climb here" />
 
-                <RadioGroup
-                    android:id="@+id/climb2radio"
-                    style="@style/CardViewRadioGroupStyle">
-                    <RadioButton
-                        android:id="@+id/climb2a"
-                        style="@style/CardViewRadioButtonStyle"
-                        android:text="Heeey" />
-                    <RadioButton
-                        android:id="@+id/climb2b"
-                        style="@style/CardViewRadioButtonStyle"
-                        android:text="colors of the gate" />
-                    <RadioButton
-                        android:id="@+id/climb2c"
-                        style="@style/CardViewRadioButtonStyle"
-                        android:text="hoe mant partsssss skjaejf sskks dfs" />
-                    <RadioButton
-                        android:id="@+id/climb2d"
-                        style="@style/CardViewRadioButtonStyle"
-                        android:text="wht is the devaor sfjsm skfmsmfm" />
-                </RadioGroup>
+                <CheckBox
+                    android:id="@+id/climb2a"
+                    style="@style/CardViewRadioButtonStyle"
+                    android:text="The Nose" />
+
+                <CheckBox
+                    android:id="@+id/climb2b"
+                    style="@style/CardViewRadioButtonStyle"
+                    android:text="Lucid Dreaming" />
+
+                <CheckBox
+                    android:id="@+id/climb2c"
+                    style="@style/CardViewRadioButtonStyle"
+                    android:text="Half Dome" />
+
+                <CheckBox
+                    android:id="@+id/climb2d"
+                    style="@style/CardViewRadioButtonStyle"
+                    android:text="Fontainebleau" />
+
 
             </LinearLayout>
         </android.support.v7.widget.CardView>
@@ -155,31 +126,35 @@
 
                 <ImageView
                     style="@style/CardViewImageViewStyle"
-                    android:src="@drawable/climb1" />
+                    android:src="@drawable/climb3" />
 
                 <TextView
                     style="@style/CardViewTextViewStyle"
-                    android:text="Heyeyeyeye what is up dog about the gate" />
+                    android:text="What climbing style is Alex Honnold famous for?" />
 
                 <RadioGroup
                     android:id="@+id/climb3radio"
                     style="@style/CardViewRadioGroupStyle">
+
                     <RadioButton
                         android:id="@+id/climb3a"
                         style="@style/CardViewRadioButtonStyle"
-                        android:text="Heeey" />
+                        android:text="Trad climbing" />
+
                     <RadioButton
                         android:id="@+id/climb3b"
                         style="@style/CardViewRadioButtonStyle"
-                        android:text="colors of the gate" />
+                        android:text="High ball bouldering" />
+
                     <RadioButton
                         android:id="@+id/climb3c"
                         style="@style/CardViewRadioButtonStyle"
-                        android:text="hoe mant partsssss skjaejf sskks dfs" />
+                        android:text="Free climbing" />
+
                     <RadioButton
                         android:id="@+id/climb3d"
                         style="@style/CardViewRadioButtonStyle"
-                        android:text="wht is the devaor sfjsm skfmsmfm" />
+                        android:text="Free soloing" />
                 </RadioGroup>
 
             </LinearLayout>
@@ -195,31 +170,35 @@
 
                 <ImageView
                     style="@style/CardViewImageViewStyle"
-                    android:src="@drawable/climb1" />
+                    android:src="@drawable/climb4" />
 
                 <TextView
                     style="@style/CardViewTextViewStyle"
-                    android:text="Heyeyeyeye what is up dog about the gate" />
+                    android:text="What is beta?" />
 
                 <RadioGroup
                     android:id="@+id/climb4radio"
                     style="@style/CardViewRadioGroupStyle">
+
                     <RadioButton
                         android:id="@+id/climb4a"
                         style="@style/CardViewRadioButtonStyle"
-                        android:text="Heeey" />
+                        android:text="The easy routes in a climbing gym" />
+
                     <RadioButton
                         android:id="@+id/climb4b"
                         style="@style/CardViewRadioButtonStyle"
-                        android:text="colors of the gate" />
+                        android:text="Advice on how to climb a route" />
+
                     <RadioButton
                         android:id="@+id/climb4c"
                         style="@style/CardViewRadioButtonStyle"
-                        android:text="hoe mant partsssss skjaejf sskks dfs" />
+                        android:text="The person who holds the rope" />
+
                     <RadioButton
                         android:id="@+id/climb4d"
                         style="@style/CardViewRadioButtonStyle"
-                        android:text="wht is the devaor sfjsm skfmsmfm" />
+                        android:text="To climb only using footholds for handholds" />
                 </RadioGroup>
 
             </LinearLayout>
@@ -235,77 +214,33 @@
 
                 <ImageView
                     style="@style/CardViewImageViewStyle"
-                    android:src="@drawable/climb1" />
+                    android:src="@drawable/climb5" />
 
                 <TextView
                     style="@style/CardViewTextViewStyle"
-                    android:text="Heyeyeyeye what is up dog about the gate" />
+                    android:text="His first name is Alexander. What is his last name?" />
 
-                <RadioGroup
-                    android:id="@+id/climb5radio"
-                    style="@style/CardViewRadioGroupStyle">
-                    <RadioButton
-                        android:id="@+id/climb5a"
-                        style="@style/CardViewRadioButtonStyle"
-                        android:text="Heeey" />
-                    <RadioButton
-                        android:id="@+id/climb5b"
-                        style="@style/CardViewRadioButtonStyle"
-                        android:text="colors of the gate" />
-                    <RadioButton
-                        android:id="@+id/climb5c"
-                        style="@style/CardViewRadioButtonStyle"
-                        android:text="hoe mant partsssss skjaejf sskks dfs" />
-                    <RadioButton
-                        android:id="@+id/climb5d"
-                        style="@style/CardViewRadioButtonStyle"
-                        android:text="wht is the devaor sfjsm skfmsmfm" />
-                </RadioGroup>
+                <EditText
+                    android:id="@+id/climb5_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:hint="@string/write_here"
+                    android:inputType="text" />
 
             </LinearLayout>
         </android.support.v7.widget.CardView>
 
-        <android.support.v7.widget.CardView
-            android:id="@+id/climb6_card"
-            style="@style/CardViewStyle"
-            android:focusable="true">
-            <!-- TODO: do I need focusable? -->
-
-            <LinearLayout style="@style/CardViewLinearLayoutStyle">
-
-                <ImageView
-                    style="@style/CardViewImageViewStyle"
-                    android:src="@drawable/climb1" />
-
-                <TextView
-                    style="@style/CardViewTextViewStyle"
-                    android:text="Heyeyeyeye what is up dog about the gate" />
-
-                <RadioGroup
-                    android:id="@+id/climb6radio"
-                    style="@style/CardViewRadioGroupStyle">
-                    <RadioButton
-                        android:id="@+id/climb6a"
-                        style="@style/CardViewRadioButtonStyle"
-                        android:text="Heeey" />
-                    <RadioButton
-                        android:id="@+id/climb6b"
-                        style="@style/CardViewRadioButtonStyle"
-                        android:text="colors of the gate" />
-                    <RadioButton
-                        android:id="@+id/climb6c"
-                        style="@style/CardViewRadioButtonStyle"
-                        android:text="hoe mant partsssss skjaejf sskks dfs" />
-                    <RadioButton
-                        android:id="@+id/climb6d"
-                        style="@style/CardViewRadioButtonStyle"
-                        android:text="wht is the devaor sfjsm skfmsmfm" />
-                </RadioGroup>
-
-            </LinearLayout>
-        </android.support.v7.widget.CardView>
-
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:layout_gravity="center"
+                android:onClick="submit"
+                android:text="@string/submit" />
 
     </LinearLayout>
-
 </ScrollView>

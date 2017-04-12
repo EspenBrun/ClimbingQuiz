@@ -1,8 +1,21 @@
 <resources>
 
     <string name="app_name">Climbing Quiz</string>
-    <!-- Quiz info about points -->
-    <string name="each_question_is_worth_1_point">Each question is worth 1 point</string>
-    <!-- The placeholder in name field -->
+    <!-- Header for quiz info [CHAR LIMIT=20] -->
+    <string name="info">Info</string>
+    <!-- Quiz info about points [CHAR LIMIT=NONE] -->
+    <string name="each_question_is_worth_1_point">Each question is worth 1 point. Questions with checkbox alternatives have more than one right answer, and all must be selected to get a point.</string>
+    <!-- Header for name field [CHAR LIMIT=20] -->
+    <string name="fill_in_name">Fill in your name</string>
+    <!-- The placeholder in name field [CHAR LIMIT=20] -->
     <string name="name_field">Name</string>
+    <!-- Header before quiz cardviews [CHAR LIMIT=20] -->
+    <string name="the_quiz">The quiz</string>
+    <string name="on_sight_question">What does it mean to climb a route on-sight?</string>
+    <!-- Question 5 textfield hint [CHAR LIMIT=20] -->
+    <string name="write_here">Write here</string>
+    <string name="submit">Submit</string>
+    <string name="reset">reset</string>
+
+
 </resources>
