@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Climbing Quiz</string>
+    <!-- Quiz info about points -->
+    <string name="each_question_is_worth_1_point">Each question is worth 1 point</string>
+    <!-- The placeholder in name field -->
+    <string name="name_field">Name</string>
+</resources>

@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- All button text-->
+        <item name="android:textAppearanceButton">@style/TextAppearance.AppCompat.Button.Custom</item>
+    </style>
+
+    <!-- All button text-->
+    <style name="TextAppearance.AppCompat.Button.Custom">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- CardView -->
+    <style name="CardViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/cardview_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/cardview_horizontal_margin</item>
+        <item name="android:layout_marginTop">@dimen/cardview_vertical_margin</item>
+        <!--TODO: what corner radius? -->
+        <!--<item name="cardCornerRadius">2dp</item> from mrpeny-->
+        <item name="cardCornerRadius">5dp</item>
+        <!-- TODO: Is this the color i want??-->
+        <item name="cardBackgroundColor">@android:color/background_light</item>
+    </style>
+
+    <!-- CardView LinearLayout -->
+    <style name="CardViewLinearLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- CardView ImageView-->
+    <style name="CardViewImageViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!-- Scale image, keep aspect ratio, fill view -->
+        <item name="android:scaleType">centerCrop</item>
+        <!-- Adjust ImageView bounds to preserve aspect ratio-->
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <!-- CardView TextView-->
+    <style name="CardViewTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!--<item name="android:textColor">@color/colorPrimaryDark</item>-->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <!-- CardView RadioGroup-->
+    <style name="CardViewRadioGroupStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <!-- CardView RadioButton Style-->
+    <style name="CardViewRadioButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/radio_button_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/radio_button_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/radio_button_horizontal_margin</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>
